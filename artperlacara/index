@@ -153,14 +153,62 @@
       switch (dominant) {
         case 'happy':
           stroke(255,200,0); // groc
-          beginShape();
-          for (let a = 0; a < TWO_PI; a += PI/8) {
-            let r = 100 + 25 * sin(a * 8);
-            let x = VIRTUAL_W/2 + r * cos(a);
-            let y = VIRTUAL_H/2 + r * sin(a);
-            vertex(x, y); // vèrtex positiu
-          }
-          endShape(CLOSE);
+          beginShape();//arbre
+
+vertex(115, 198.1875);
+vertex(117, 188.1875);
+vertex(109, 180.1875);
+vertex(101, 172.1875);
+vertex(95, 166.1875);
+vertex(92, 152.1875);
+vertex(88, 142.1875);
+vertex(80, 133.1875);
+vertex(74, 126.1875);
+vertex(74, 117.1875);
+vertex(70, 126.1875);
+vertex(70, 134.1875);
+vertex(73, 143.1875);
+vertex(68, 139.1875);
+vertex(64, 128.1875);
+vertex(63, 120.1875);
+vertex(61, 111.1875);
+vertex(59, 101.1875);
+vertex(59, 91.1875);
+vertex(57, 84.1875);
+vertex(55, 74.1875);
+vertex(54, 64.1875);
+vertex(52, 55.1875);
+vertex(48, 45.1875);
+vertex(49, 30.1875);
+vertex(52, 18.1875);
+vertex(48, 9.1875);
+vertex(46, 19.1875);
+vertex(45, 30.1875);
+vertex(46, 35.1875);
+vertex(45, 40.1875);
+vertex(47, 54.1875);
+vertex(48, 61.1875);
+vertex(45, 63.1875);
+vertex(44, 76.1875);
+vertex(43, 81.1875);
+vertex(40, 73.1875);
+vertex(38, 62.1875);
+vertex(35, 73.1875);
+vertex(37, 78.1875);
+vertex(37, 85.1875);
+vertex(40, 95.1875);
+vertex(38, 106.1875);
+vertex(37, 115.1875);
+vertex(38, 128.1875);
+vertex(39, 137.1875);
+vertex(38, 145.1875);
+vertex(34, 152.1875);
+vertex(32, 161.1875);
+vertex(32, 171.1875);
+vertex(32, 178.1875);
+vertex(40, 189.1875);
+vertex(47, 198.1875);
+endShape(CLOSE);
           break;
 
         case 'sad':
