@@ -860,8 +860,8 @@ endShape(CLOSE);
           break;
 
         case 'fearful':
-          stroke(100,100,100,150); // gris
-         fill();
+          stroke(100,100,100,150); // lila
+         fill(209, 0, 255);
 beginShape();//arbre
 
 vertex(115, 198.1875);
@@ -918,7 +918,7 @@ vertex(32, 178.1875);
 vertex(40, 189.1875);
 vertex(47, 198.1875);
 endShape(CLOSE);
-fill();
+fill(216, 45, 254);
 beginShape();//cel
 vertex(1195, 487.1875);
 vertex(1178, 476.1875);
@@ -976,7 +976,7 @@ vertex(97, 0.1875);
 vertex(1196, 0.1875);
 vertex(1198, 484.1875);
 endShape(CLOSE);
-fill();
+fill(171, 5, 208);
 beginShape();poble
 vertex(250, 141.1875);
 vertex(244, 141.1875);
@@ -1017,7 +1017,7 @@ vertex(233, 198.1875);
 vertex(250, 197.1875);
 vertex(251, 143.1875);
 endShape(CLOSE);
-fill();
+fill(136, 2, 165);
 beginShape();montanyes 
 vertex(1195, 487.1875);
 vertex(1178, 476.1875);
@@ -1096,8 +1096,8 @@ endShape(CLOSE);
           break;
 
         case 'surprised':
-          stroke(0,150,255,150); // blau clar
-          fill();
+          stroke(0,150,255,150); // rosa
+          fill(255, 0, 228);
 beginShape();//arbre
 
 vertex(115, 198.1875);
@@ -1154,7 +1154,7 @@ vertex(32, 178.1875);
 vertex(40, 189.1875);
 vertex(47, 198.1875);
 endShape(CLOSE);
-fill();
+fill(254, 43, 232);
 beginShape();//cel
 vertex(1195, 487.1875);
 vertex(1178, 476.1875);
@@ -1212,7 +1212,7 @@ vertex(97, 0.1875);
 vertex(1196, 0.1875);
 vertex(1198, 484.1875);
 endShape(CLOSE);
-fill();
+fill(219, 4, 196);
 beginShape();poble
 vertex(250, 141.1875);
 vertex(244, 141.1875);
@@ -1253,7 +1253,7 @@ vertex(233, 198.1875);
 vertex(250, 197.1875);
 vertex(251, 143.1875);
 endShape(CLOSE);
-fill();
+fill(201, 3, 180);
 beginShape();montanyes 
 vertex(1195, 487.1875);
 vertex(1178, 476.1875);
@@ -1333,7 +1333,7 @@ endShape(CLOSE);
 
         case 'disgusted':
           stroke(0,150,0,150); // verd
-         fill();
+         fill(46, 255, 0);
 beginShape();//arbre
 
 vertex(115, 198.1875);
@@ -1390,7 +1390,7 @@ vertex(32, 178.1875);
 vertex(40, 189.1875);
 vertex(47, 198.1875);
 endShape(CLOSE);
-fill();
+fill(96, 251, 62);
 beginShape();//cel
 vertex(1195, 487.1875);
 vertex(1178, 476.1875);
@@ -1448,7 +1448,7 @@ vertex(97, 0.1875);
 vertex(1196, 0.1875);
 vertex(1198, 484.1875);
 endShape(CLOSE);
-fill();
+fill(41, 216, 2);
 beginShape();poble
 vertex(250, 141.1875);
 vertex(244, 141.1875);
@@ -1489,7 +1489,7 @@ vertex(233, 198.1875);
 vertex(250, 197.1875);
 vertex(251, 143.1875);
 endShape(CLOSE);
-fill();
+fill(37, 189, 3);
 beginShape();montanyes 
 vertex(1195, 487.1875);
 vertex(1178, 476.1875);
@@ -1568,8 +1568,8 @@ endShape(CLOSE);
           break;
 
         default:
-          stroke(150,150,150,150); // gris suau
-          fill();
+          stroke(150,150,150,150); // gris
+          fill(110, 111, 110);
 beginShape();//arbre
 
 vertex(115, 198.1875);
@@ -1626,7 +1626,7 @@ vertex(32, 178.1875);
 vertex(40, 189.1875);
 vertex(47, 198.1875);
 endShape(CLOSE);
-fill();
+fill(138, 138, 138);
 beginShape();//cel
 vertex(1195, 487.1875);
 vertex(1178, 476.1875);
@@ -1684,7 +1684,7 @@ vertex(97, 0.1875);
 vertex(1196, 0.1875);
 vertex(1198, 484.1875);
 endShape(CLOSE);
-fill();
+fill(195, 195, 195);
 beginShape();poble
 vertex(250, 141.1875);
 vertex(244, 141.1875);
@@ -1725,7 +1725,7 @@ vertex(233, 198.1875);
 vertex(250, 197.1875);
 vertex(251, 143.1875);
 endShape(CLOSE);
-fill();
+fill(94, 103, 92);
 beginShape();montanyes 
 vertex(1195, 487.1875);
 vertex(1178, 476.1875);
