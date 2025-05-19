@@ -388,10 +388,8 @@ endShape(CLOSE);
 
 
         case 'sad':
-          stroke(50,100,200,150); // blau
-         stroke(255,200,0); // groc
-        
-fill();
+          stroke(50,100,200,150); // blau 
+fill(39, 0, 255 );
 beginShape();//arbre
 
 vertex(115, 198.1875);
@@ -448,7 +446,7 @@ vertex(32, 178.1875);
 vertex(40, 189.1875);
 vertex(47, 198.1875);
 endShape(CLOSE);
-fill();
+fill(38, 5, 225);
 beginShape();//cel
 vertex(1195, 487.1875);
 vertex(1178, 476.1875);
@@ -506,7 +504,7 @@ vertex(97, 0.1875);
 vertex(1196, 0.1875);
 vertex(1198, 484.1875);
 endShape(CLOSE);
-fill();
+fill(32, 4, 190);
 beginShape();poble
 vertex(250, 141.1875);
 vertex(244, 141.1875);
@@ -547,7 +545,7 @@ vertex(233, 198.1875);
 vertex(250, 197.1875);
 vertex(251, 143.1875);
 endShape(CLOSE);
-fill();
+fill(27, 3, 158);
 beginShape();montanyes 
 vertex(1195, 487.1875);
 vertex(1178, 476.1875);
@@ -627,7 +625,7 @@ endShape(CLOSE);
 
         case 'angry':
           stroke(200,0,0,150); // vermell
-          fill();
+          fill(255, 0, 0);
 beginShape();//arbre
 
 vertex(115, 198.1875);
@@ -684,7 +682,7 @@ vertex(32, 178.1875);
 vertex(40, 189.1875);
 vertex(47, 198.1875);
 endShape(CLOSE);
-fill();
+fill(255, 31, 31);
 beginShape();//cel
 vertex(1195, 487.1875);
 vertex(1178, 476.1875);
@@ -742,7 +740,7 @@ vertex(97, 0.1875);
 vertex(1196, 0.1875);
 vertex(1198, 484.1875);
 endShape(CLOSE);
-fill();
+fill(193, 4, 4);
 beginShape();poble
 vertex(250, 141.1875);
 vertex(244, 141.1875);
@@ -783,7 +781,7 @@ vertex(233, 198.1875);
 vertex(250, 197.1875);
 vertex(251, 143.1875);
 endShape(CLOSE);
-fill();
+fill(162, 4, 4);
 beginShape();montanyes 
 vertex(1195, 487.1875);
 vertex(1178, 476.1875);
